@@ -41,6 +41,7 @@ TAG_CATEGORY_MAP: dict[str, str] = {
     'spring-cloud':   'Java 核心与框架',
     'jdk':            'Java 核心与框架',
     'jvm':            'Java 核心与框架',
+    'jpms':           'Java 核心与框架',
     'mybatis':        'Java 核心与框架',
     'hibernate':      'Java 核心与框架',
     'jpa':            'Java 核心与框架',
@@ -286,7 +287,7 @@ def update_readme(root: Path, stats: dict) -> None:
 
     # 1. 替换技术领域表格
     new_table = build_table_rows(stats)
-    pattern_table = r'(<!-- TABLE_START -->\n).*?(\n<!-- TABLE_END -->)'
+    pattern_table = r'(<!-- TABLE_START -->\n).*?(\n[ \t]*<!-- TABLE_END -->)'
     if re.search(pattern_table, content, flags=re.DOTALL):
         content = re.sub(
             pattern_table,
@@ -299,7 +300,7 @@ def update_readme(root: Path, stats: dict) -> None:
 
     # 2. 替换时间线归档
     new_timeline = build_timeline_items(stats)
-    pattern_timeline = r'(<!-- TIMELINE_START -->\n).*?(\n<!-- TIMELINE_END -->)'
+    pattern_timeline = r'(<!-- TIMELINE_START -->\n).*?(\n[ \t]*<!-- TIMELINE_END -->)'
     if re.search(pattern_timeline, content, flags=re.DOTALL):
         content = re.sub(
             pattern_timeline,
