@@ -99,3 +99,5 @@ cfg.setClassLoaderForTemplateLoading(
 5. [Spring Boot 3 Migration Guide: Async & Reflective Access](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide) - Spring 官方迁移指南中线程池与反射兼容性章节
 6. [Baeldung: CompletableFuture and Custom Executors in Java 17](https://www.baeldung.com/java-completablefuture-custom-executor) - JDK 8 vs 17 默认执行器行为差异详解
 
+## 🏷️ 标签
+#java #jdk #jvm #spring-boot #concurrency
