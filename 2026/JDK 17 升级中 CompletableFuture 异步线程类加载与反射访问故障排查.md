@@ -100,5 +100,5 @@ cfg.setClassLoaderForTemplateLoading(
 6. [Baeldung: CompletableFuture and Custom Executors in Java 17](https://www.baeldung.com/java-completablefuture-custom-executor) - JDK 8 vs 17 默认执行器行为差异详解
 
 ## 🏷️ 标签
-#java #jdk #jvm #spring-boot #concurrency#jpms
+#java #jdk #jvm #spring-boot #concurrency
 
