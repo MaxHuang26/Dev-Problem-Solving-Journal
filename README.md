@@ -10,14 +10,12 @@
 ### 按技术领域分类
 
 <!-- TABLE_START -->
-| 技术领域 | 核心技术栈 | 案例数量 | 最近更新 |
-| --- | --- | --- | --- |
-| Java 核心与框架 | JDK 17/21, Spring Boot, Spring Cloud | 0 | - |
+| Java 核心与框架 | JDK 17/21, Spring Boot, Spring Cloud | 1 | 2026-08-01 |
 | 数据库与存储 | TiDB, MongoDB, Redis | 0 | - |
 | 搜索与中间件 | Elasticsearch, RocketMQ/Kafka | 0 | - |
 | 容器化与编排 | Docker, Kubernetes | 0 | - |
 | 可观测性与运维 | Prometheus, Grafana, SkyWalking | 0 | - |
-| 架构与设计模式 | 分布式架构, DDD, 设计模式 | 0 | - |
+| 架构与设计模式 | 分布式架构, DDD, 设计模式 | 1 | 2026-08-01 |
 <!-- TABLE_END -->
 
 ### 按时间线归档
